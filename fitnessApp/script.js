@@ -32,6 +32,11 @@ window.onload = () =>{
   }
 }
 
+let feat=document.getElementById("service");
+feat.onclick= () =>{
+  document.getElementById('featured-class').scrollIntoView({behavior: 'smooth'});
+};
+
 // for home pages 
 
 var swiper = new Swiper(".home-slider", {
